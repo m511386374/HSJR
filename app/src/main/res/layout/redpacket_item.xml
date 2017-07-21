@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmlms="http://schemas.android.com/apk/res-auto"
+    xmlns:coupon="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10px"
+    card_view:cardCornerRadius="10px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.haosencredit.Haosenfinance.view.CouponView
+            android:layout_width="18px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/orange_color"
+            coupon:gap="4dp"
+            coupon:radius="2dp"
+            coupon:radiusBackgroundColor="@color/white"
+            coupon:showHorizontal="false"
+            coupon:showVertical="true"
+            android:gravity="center"
+            >
+        </com.haosencredit.Haosenfinance.view.CouponView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="23px"
+                            android:text="￥"
+                            android:textColor="@color/orange_color"
+                            />
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="100"
+                            android:textSize="52px"
+                            android:textColor="@color/orange_color"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="23px"
+                            android:text=".00"
+                            android:textColor="@color/orange_color"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/redpacket_orange_btn"
+                        android:text="立即使用"
+                        android:gravity="center"
+                        android:textSize="26px"
+                        android:textColor="@color/orange_color"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <com.haosencredit.Haosenfinance.view.DashLine
+                android:id="@+id/line_dash"
+                android:layout_width="1dip"
+                android:layout_height="200px"
+                xmlms:orientation="vertical"
+                xmlms:dashColor="#CCCCCC"
+                xmlms:dashWidth="2dip"
+                xmlms:offset="2dip"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20px"
+                >
+                <TextView
+                    android:id="@+id/title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="邀请奖励红包"
+                    android:textSize="34px"
+                    android:textColor="@color/orange_color"
+                    android:layout_marginTop="20px"
+                    android:paddingBottom="10px"
+                    android:layout_marginLeft="20px"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="投资满2000元以上可用"
+                    android:textSize="26px"
+                    android:drawableLeft="@drawable/dot_gray"
+                    android:drawablePadding="10px"
+                    android:paddingLeft="20px"
+                    android:paddingBottom="5px"
+                    android:id="@+id/title_two"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="限借贷标使用"
+                    android:textSize="26px"
+                    android:drawableLeft="@drawable/dot_gray"
+                    android:drawablePadding="10px"
+                    android:paddingLeft="20px"
+                    android:paddingBottom="5px"
+                    android:id="@+id/title_three"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/title_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一次性使用"
+                    android:textSize="26px"
+                    android:drawableLeft="@drawable/dot_gray"
+                    android:drawablePadding="10px"
+                    android:paddingLeft="20px"
+                    android:paddingBottom="5px"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/title_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016-03-08至2016-04-08"
+                    android:textSize="26px"
+                    android:drawableLeft="@drawable/dot_gray"
+                    android:drawablePadding="10px"
+                    android:paddingLeft="20px"
+                    android:paddingBottom="5px"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="20px"
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

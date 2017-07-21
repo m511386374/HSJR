@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_news"
+        android:icon="@mipmap/tab_assistant_gray"
+        android:title="首页" />
+    <item
+        android:id="@+id/item_lib"
+        android:icon="@mipmap/tab_center_gray"
+        android:title="理财" />
+
+    <item
+        android:id="@+id/item_find"
+        android:icon="@mipmap/tab_contest_gray"
+        android:title="资产" />
+
+    <item
+        android:id="@+id/item_more"
+        android:icon="@mipmap/tab_counter_gray"
+        android:title="我的" />
+
+</menu>

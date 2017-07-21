@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/finance_background"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="理财"
+            android:textSize="36px"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+    <LinearLayout
+        android:id="@+id/new_weekandweek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="150px"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10px"
+
+                >
+                <View
+                    android:layout_width="4px"
+                    android:layout_height="30px"
+                    android:background="@color/orange_color"
+                    android:layout_marginRight="10px"
+                    >
+                </View>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新手周周升"
+                    android:textSize="27px"
+                    android:textColor="@color/orange_color"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/home_text_color"
+                    android:background="@drawable/finance_border_lift"
+                    android:text="前4周加息"
+                    android:textSize="22px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="6%"
+                    android:textSize="22px"
+                    android:background="@drawable/finance_border_rigth"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="150px"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10px"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10px"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6%"
+                    android:textSize="32px"
+                    android:textColor="@color/orange_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="升至"
+                    android:textSize="24px"
+                    android:textColor="@color/orange_color"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.5%"
+                    android:textSize="32px"
+                    android:textColor="@color/orange_color"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_text"
+                android:text="可投金额:￥6000"
+                android:textSize="22px"
+                />
+
+        </LinearLayout>
+       <!--////////////////////////////////////////////////////////////////////////////////-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="150px"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20px"
+                android:textSize="24px"
+                android:text="投资"
+                android:textColor="@color/finance_background"
+                android:background="@drawable/invest_blue_btn"
+                />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="2px"
+         android:background="@color/grey_line"
+         android:layout_marginRight="20px"
+         android:layout_marginLeft="20px"
+         >
+     </View>
+
+    </LinearLayout>
+
+    <!--00000000000000000000000000000000000000000000000000000000000000000000000-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:id="@+id/weekandweek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="150px"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10px"
+
+                    >
+                    <View
+                        android:layout_width="4px"
+                        android:layout_height="40px"
+                        android:background="@color/finance_background"
+                        android:layout_marginRight="10px"
+                        >
+                    </View>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="周周升"
+                        android:textSize="30px"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="七天后免费退出"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="150px"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="10px"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10px"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="升至"
+                        android:textSize="24px"
+                        android:textColor="@color/orange_color"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9.5%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey_text"
+                    android:text="可投金额:￥6000"
+                    android:textSize="22px"
+                    />
+
+            </LinearLayout>
+            <!--////////////////////////////////////////////////////////////////////////////////-->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="150px"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10px"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20px"
+                        android:textSize="24px"
+                        android:text="投资"
+                        android:textColor="@color/finance_background"
+                        android:background="@drawable/invest_blue_btn"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/grey_line"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            >
+        </View>
+        <!--00000000000000000000000000000000000000000000000000000000-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="40px"
+                            android:background="@color/finance_background"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="月月升"
+                            android:textSize="30px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="七天后免费退出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6%"
+                            android:textSize="32px"
+                            android:textColor="@color/orange_color"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="升至"
+                            android:textSize="24px"
+                            android:textColor="@color/orange_color"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.5%"
+                            android:textSize="32px"
+                            android:textColor="@color/orange_color"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="投资"
+                            android:textColor="@color/finance_background"
+                            android:background="@drawable/invest_blue_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--00000000000000000000000000000000000000000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/three_monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/orange_color"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3月浩定存"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="到期自动转出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7%"
+                            android:textSize="32px"
+                            android:textColor="@color/orange_color"
+                            />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="投资"
+                            android:textColor="@color/finance_background"
+                            android:background="@drawable/invest_blue_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--0000000000000000000000000000000000000000000000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/six_monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/orange_color"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6月浩定存"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="到期自动转出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="投资"
+                            android:textColor="@color/finance_background"
+                            android:background="@drawable/invest_blue_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--0000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/nine_monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/orange_color"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9月浩定存"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="到期自动转出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="预约"
+                            android:textColor="@color/orange_color"
+                            android:background="@drawable/invest_orange_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--00000000000000000000000000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/twelve_monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/orange_color"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12月浩定存"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="到期自动转出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="预约"
+                            android:textColor="@color/orange_color"
+                            android:background="@drawable/invest_orange_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--00000000000000000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:id="@+id/eighteen_monthandmonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/orange_color"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18月浩定存"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="到期自动转出"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7%"
+                        android:textSize="32px"
+                        android:textColor="@color/orange_color"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="可投金额:￥6000"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20px"
+                            android:textSize="24px"
+                            android:text="预约"
+                            android:textColor="@color/orange_color"
+                            android:background="@drawable/invest_orange_btn"
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+        <!--000000000000000000000000000000-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/scattered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <View
+                            android:layout_width="4px"
+                            android:layout_height="30px"
+                            android:background="@color/finance_background"
+                            android:layout_marginRight="10px"
+                            >
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="精选散标"
+                            android:textSize="27px"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/grey_text"
+                            android:text="60天可转"
+                            android:textSize="22px"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10px"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6%"
+                            android:textSize="32px"
+                            android:textColor="@color/orange_color"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="～"
+                            android:textSize="24px"
+                            android:textColor="@color/orange_color"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9.5%"
+                            android:textSize="32px"
+                            android:textColor="@color/orange_color"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="预期年化利率"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+                <!--////////////////////////////////////////////////////////////////////////////////-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0px"
+                    android:layout_height="150px"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="10px"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1个月～36个月"
+                        android:textSize="28px"
+                        android:textColor="@color/black"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey_text"
+                        android:text="期限"
+                        android:textSize="22px"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/grey_line"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="20px"
+                >
+            </View>
+
+        </LinearLayout>
+
+    </LinearLayout>
+   </LinearLayout>
+  </ScrollView>
+</LinearLayout>

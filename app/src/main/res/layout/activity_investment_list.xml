@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        style="@style/MatchMatch.Vertical"
+        android:gravity="center_horizontal">
+        <cn.bingoogolapple.progressbar.BGAProgressBar
+            android:id="@+id/pb_main_demo7"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:padding="15dp"
+            android:progress="70"
+            app:bga_pb_isCapRounded="false"
+            app:bga_pb_isHiddenText="true"
+            app:bga_pb_mode="circle"
+            app:bga_pb_radius="24dp"
+            app:bga_pb_reachedColor="#3992ee"
+            app:bga_pb_reachedHeight="8dp"
+            app:bga_pb_unReachedColor="#fb6b25"
+            app:bga_pb_unReachedHeight="8dp"/>
+    </LinearLayout>
+
+    <com.daasuu.bl.BubbleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:padding="4dp"
+        app:bl_arrowDirection="bottom"
+        app:bl_arrowHeight="5dp"
+        app:bl_arrowPosition="10dp"
+        app:bl_arrowWidth="8dp"
+        app:bl_cornersRadius="6dp"
+        app:bl_bubbleColor="@color/orange_color"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="招募中"
+            android:textSize="12dp"
+            android:textColor="@color/white" />
+
+    </com.daasuu.bl.BubbleLayout>
+
+    </LinearLayout>

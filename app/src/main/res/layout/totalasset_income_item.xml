@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40px"
+    android:layout_marginRight="40px"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/totalasset_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-06-28"
+        android:textSize="26px"
+        android:drawableLeft="@drawable/dot_gray"
+        android:drawablePadding="20px"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <TextView
+        android:id="@+id/totalasset_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="26px"
+        android:layout_alignParentRight="true"
+        />
+    </RelativeLayout>
+    <View
+        android:paddingLeft="20px"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/grey_line"
+        >
+    </View>
+
+
+</LinearLayout>
